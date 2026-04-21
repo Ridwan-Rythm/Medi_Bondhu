@@ -64,10 +64,11 @@ st.markdown(
         -webkit-backdrop-filter: blur(14px);
     }}
 
-    /* ── Block container width ── */
+    /* ── Block container: centered with breathing room from toolbar ── */
     .block-container {{
         max-width: 760px !important;
-        padding: 2.5rem 2rem 4rem !important;
+        padding: 5rem 2rem 4rem !important;
+        margin: 0 auto !important;
     }}
 
     /* ── Hero section ── */
@@ -321,7 +322,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-
+# ── Hero ──────────────────────────────────────────────────────────────────────
 st.markdown(
     """
     <div class="hero-wrap">
@@ -337,6 +338,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+# ── Sidebar ───────────────────────────────────────────────────────────────────
 with st.sidebar:
     st.header("How to use")
     st.divider()
@@ -346,7 +348,7 @@ with st.sidebar:
     st.divider()
     st.markdown("_More features coming soon — stay tuned!_")
 
-
+# ── Upload card ───────────────────────────────────────────────────────────────
 with st.container(border=True):
     st.header("Upload Medicine Image")
     st.subheader("Supports JPG, JPEG, PNG · max 3 images")
