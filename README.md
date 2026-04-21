@@ -3,6 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=flat-square&logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.x-FF4B4B?style=flat-square&logo=streamlit)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+[![Live App](https://img.shields.io/badge/Live%20App-medibondhu--ai.streamlit.app-brightgreen?style=flat-square&logo=streamlit)](https://medibondhu-ai.streamlit.app/)
 
 MediBondhu is an AI-powered web application that identifies medicines from images and provides detailed information including the medicine's name, uses, side effects, and precautions — all in seconds.
 
@@ -17,9 +18,11 @@ MediBondhu is an AI-powered web application that identifies medicines from image
 
 ---
 
-## 🖥️ Demo
+## 🖥️ Live Demo
 
-> Upload a medicine image → Click **Identify** → Get instant AI-generated details.
+🔗 **[https://medibondhu-ai.streamlit.app/](https://medibondhu-ai.streamlit.app/)**
+
+> Upload a medicine image → Click **Identify** → Get instant AI-generated details. No sign-up required.
 
 ---
 
